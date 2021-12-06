@@ -1,1 +1,60 @@
-hi
+right click in 'F:\sw\10-SBMS\36-SB-P-1'--->select git bash here
+git init
+git status
+git add --a
+git status
+git commit -m 'first commit'
+
+git branch -M main
+
+git remote add origin https://github.com/sureaswin878787/36-SB-P-1.git
+
+
+git push -u origin main
+-----------------------------------------------------------------------
+git status
+
+i created a new file hi.txt parallel to src folder.
+
+git status
+
+git add --a
+git status
+
+(next i forgot git commit --m 'message')
+---------------------------
+git push -u origin main
+
+(no effect in browser)
+---------------------------
+git brnach -M main
+
+git push -u origin main
+
+(no effect in browser)
+---------------------------
+
+aswin@DESKTOP-TP2MGKJ MINGW64 /f/sw/10-SBMS/36-SB-P-1 (main)
+command 1)$ git branch -M main
+
+aswin@DESKTOP-TP2MGKJ MINGW64 /f/sw/10-SBMS/36-SB-P-1 (main)
+command 2)$ git remote add origin https://github.com/sureaswin878787/36-SB-P-1.git
+error: remote origin already exists.
+
+aswin@DESKTOP-TP2MGKJ MINGW64 /f/sw/10-SBMS/36-SB-P-1 (main)
+command 3)$ git push -u origin main
+Everything up-to-date
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
+(no effect in browser)
+---------------------------
+git commit -m 'hi.txt file added'
+
+git push -u origin main
+
+effected in browser
+------------------------------------------------------------------------
+
+
+
